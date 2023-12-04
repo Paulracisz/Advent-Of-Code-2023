@@ -26,7 +26,6 @@ with open(file_path, 'r') as file:
             finalNumber = first_number.group() + last_number.group()
         # convert it into an int for adding to the final number
         convertedFinalNumber = int(finalNumber)
-        print("this is the line: ", line,  " this is the converted final number:", convertedFinalNumber)
         # add them all together
         total_count += convertedFinalNumber
 
